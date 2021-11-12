@@ -4,7 +4,7 @@ function compute()
     if(principal < 1){
         alert("Enter a Positive Number");
         document.getElementById("principal").focus;
-        document.getElementById("principal").style.color = "red";
+        document.getElementById("principal").style.color = "black";
         return false;
     }
     var int_rate = document.getElementById("rate").value;
