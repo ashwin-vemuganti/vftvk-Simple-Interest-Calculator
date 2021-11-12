@@ -31,3 +31,7 @@ footer{
 	color: black;
 	padding-left: 470px;
 }
+mark {
+  background-color: yellow;
+  color: black;
+}

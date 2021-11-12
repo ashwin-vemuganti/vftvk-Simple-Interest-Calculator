@@ -11,10 +11,10 @@ function compute()
     var no_of_years = document.getElementById("years").value;
     var interest = principal * int_rate * no_of_years / 100;
     var year = new Date().getFullYear() + parseInt(no_of_years);
-    document.getElementById("result").innerHTML = 'If you deposit ' +principal+', <br/> at an interest rate of '+int_rate+'.<br/> You will receive an amount of '+interest+',<br/>in the year '+year;
+    document.getElementById("result").innerHTML = 'If you deposit <mark>' +principal+'</mark>, <br/> at an interest rate of <mark>'+int_rate+'</mark>.<br/> You will receive an amount of <mark>'+interest+'</mark>,<br/>in the year <mark>'+year+'</mark>';
 }
 
 function updateRate(){
     int_rate = document.getElementById("rate").value;
-    document.getElementById("rate_val").innerText = int_rate;
+    document.getElementById("rate_val").innerText = int_rate + '%';
 }        
