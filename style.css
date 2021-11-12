@@ -1,4 +1,33 @@
-body {background-color:tan;}
-h1{color:green;}
+body {background-color:white;font-family: arial;color: white;}
+h1{color:dimgray;font-family: verdana;}
+.maindiv{
+	background-color: white;
+	color: black;
+	width: 600px;
+	padding: 20px;
+	border-radius: 25px;
+	margin: auto;
+}
+table{
+	vertical-align: center;
+	text-align: center;
+}
+td {
+  text-align: left;
+  padding: 2px;
+  padding-left: 75px;
+}
+input[type=range]{
+	background-color: blue;
+}
+span[id=result]{
+	padding-left: 75px;
+	display:block;
+    width:2000px;
+    word-wrap:break-word;
 
-
+}
+footer{
+	color: black;
+	padding-left: 470px;
+}
